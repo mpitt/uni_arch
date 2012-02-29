@@ -25,8 +25,8 @@ Codifiche:
 * tonalit&agrave; di grigio
 * colori
 * codifiche compresse
-
 * **NUMERI**
+
     * Naturali
     * Interi
     * Razionali

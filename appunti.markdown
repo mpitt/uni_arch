@@ -3,34 +3,35 @@ layout: default
 title: Architettura degli elaboratori
 ---
 
-22/02/12 - Rappresentazione dell'informazione
-=============================================
+# 22/02/12 - Rappresentazione dell'informazione
 
 La memoria &egrave; finita
 
 L'elemento di memoria &egrave; il bit (0,1)
 
 I bit si raggruppano in:
-    *  4 bit -> nibble
-    *  8 bit -> byte
-    * 16 bit -> word
-    * 32 bit -> double word
-    * 64 bit -> quad word
+
+*  4 bit -> nibble
+*  8 bit -> byte
+* 16 bit -> word
+* 32 bit -> double word
+* 64 bit -> quad word
 
 Con un gruppo di n bit ho a disposizione 2^n valori
 
 Codifiche:
-    * caratteri (ASCII)
-    * tonalit&agrave; di grigio
-    * colori
-    * codifiche compresse
 
-    * **NUMERI**
-        * Naturali
-        * Interi
-        * Razionali
-        * Reali -> Non possono essere rappresentati nei calcolatori
-        * Complessi -> Tanto meno
+* caratteri (ASCII)
+* tonalit&agrave; di grigio
+* colori
+* codifiche compresse
+
+* **NUMERI**
+    * Naturali
+    * Interi
+    * Razionali
+    * Reali -> Non possono essere rappresentati nei calcolatori
+    * Complessi -> Tanto meno
 
 Come rappresento con memoria finita infiniti numeri? Non posso.
 Posso rappresentare numeri molto grandi
@@ -38,8 +39,7 @@ Ho due limiti:
     * Numero massimo e minimo che posso rappresentare
     * Minima distanza tra due numeri rappresentabili (risoluzione)
 
-Rappresentazione binaria
-------------------------
+## Rappresentazione binaria
 
 Un numero P si pu&ograve; rappresentare come
 
@@ -55,8 +55,7 @@ Che n mi serve?
 Conversione base10 -> base2
 Prendo i resti delle successive divisioni per 2
 
-Rappresentazione esadecimale
-----------------------------
+## Rappresentazione esadecimale
 
 Gruppi di 4 bit corrispondono ad una cifra esadecimale
 Cifre Hex: 0 1 2 3 4 5 6 7 8 9 A B C D E F
@@ -90,8 +89,7 @@ Devo verificare che non ci siano inconsistenze nei segni
 
 
 
-27/02/12 - Valutazione delle prestazioni
-========================================
+# 27/02/12 - Valutazione delle prestazioni
 
 Differenza tra velocit&agrave; (tempo medio di risposta) e throughput
 
@@ -125,13 +123,12 @@ Non si pu&ograve; abbassare ancora (aumenterebbero troppo le correnti parassite)
 
 
 
-29/92/12 - Aritmetica dei calcolatori
-=====================================
+# 29/92/12 - Aritmetica dei calcolatori
 
 Divisioni e moltiplicazioni per 2*n equivalgono a shift a destra/sinistra
 
-Moltiplicazioni in comp. a 2
-----------------------------
+## Moltiplicazioni in comp. a 2
+
     -1 = 1111 * 2
     -2 = 1110 * 2
     -4 = 1100 * 2
@@ -140,12 +137,11 @@ Moltiplicazioni in comp. a 2
 Si inserisce a destra 0.
 Funziona sempre se sono all'interno del range di rappresentabilit&agrave;
 
-Divisioni in comp. a 2
-----------------------
+## Divisioni in comp. a 2
+
 Si inserisce a sinistra il bit di segno (se appl.)
 
-Moltiplicazioni tra naturali
-----------------------------
+## Moltiplicazioni tra naturali
 
 In colonna; per numeri di n bit ne servono 2n
 Molt.           tra interi: bisogna "estendere" i numeri in comp. a 2
@@ -163,8 +159,7 @@ Molt.           tra interi: bisogna "estendere" i numeri in comp. a 2
        --------------
            111111010 --comp--> -00000110 = -6 OK
 
-Divisioni tra naturali
-----------------------
+## Divisioni tra naturali
 
 es. 11010010 / 110 = 100011
     110

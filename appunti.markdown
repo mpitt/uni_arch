@@ -100,7 +100,7 @@ ad eseguire un dato compito) [vedi CISC vs RISC]
 Tempo CPU = Cicli clock / Frequenza clock
 
 CPI = n° medio di Cicli Per Istruzione
-Tempo CPU = Istruzioni * CPI * T_clock
+Tempo CPU = Istruzioni * CPI * T\_clock
             
             Istruzioni * CPI
           = ----------------
@@ -125,7 +125,7 @@ Non si pu&ograve; abbassare ancora (aumenterebbero troppo le correnti parassite)
 
 # 29/92/12 - Aritmetica dei calcolatori
 
-Divisioni e moltiplicazioni per 2*n equivalgono a shift a destra/sinistra
+Divisioni e moltiplicazioni per 2\*n equivalgono a shift a destra/sinistra
 
 ## Moltiplicazioni in comp. a 2
 

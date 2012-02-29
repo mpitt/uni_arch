@@ -1,4 +1,5 @@
-== 22/02/12 - Rappresentazione dell'informazione ==
+22/02/12 - Rappresentazione dell'informazione
+=============================================
 
 La memoria è finita
 
@@ -68,7 +69,8 @@ Devo verificare che non ci siano inconsistenze nei segni
 
 
 
-== 27/02/12 - Valutazione delle prestazioni ==
+27/02/12 - Valutazione delle prestazioni
+========================================
 
 Differenza tra velocità (tempo medio di risposta) e throughput
 
@@ -102,7 +104,9 @@ Non si può abbassare ancora (aumenterebbero troppo le correnti parassite)
 
 
 
-== 29/92/12 - Aritmetica dei calcolatori ==
+29/92/12 - Aritmetica dei calcolatori
+=====================================
+
 Divisioni e moltiplicazioni per 2*n equivalgono a shift a destra/sinistra
 
 Moltiplicazioni in comp. a 2:   -1 = 1111 * 2
